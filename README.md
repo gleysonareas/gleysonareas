@@ -4,12 +4,12 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-#My Study Projects:
+# My Study Projects:
 
-##Crud
+## Crud
 click here: https://gleysonareas.github.io/crud/
 
-##Wk Test App
+## Wk Test App
 click here: https://gleysonareas.github.io/wk-test-app/
 
 <!---
