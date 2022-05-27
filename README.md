@@ -4,13 +4,13 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-My Study Projects:
+#My Study Projects:
 
-Crud
-https://gleysonareas.github.io/crud/
+##Crud
+click here: https://gleysonareas.github.io/crud/
 
-Wk Test App
-https://gleysonareas.github.io/wk-test-app/
+##Wk Test App
+click here: https://gleysonareas.github.io/wk-test-app/
 
 <!---
 gleysonareas/gleysonareas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
