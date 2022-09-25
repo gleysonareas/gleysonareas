@@ -33,6 +33,9 @@ click here: https://gleysonareas.github.io/finansys/
 
 **Project developed based on the master detail architecture of code reuse, initially written in angular 7 and later updated at the end of the course to version 11 of the framework**
 
+### Meat App Starter
+click here: https://gleysonareas.github.io/meat-app-starter/
+
 <!---
 gleysonareas/gleysonareas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
