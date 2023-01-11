@@ -1,7 +1,7 @@
 > 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no [Linkedin](https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/) para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar esse PDF com um curriculum resumido sobre as minhas stacks: [Curriculum.pdf](https://github.com/gleysonareas/gleysonareas/files/10388259/Curriculum.Gleyson.pdf)
 
 
-# Projetos de outras empresas as quais trabalhei
+# Projetos de outras empresas as quais trabalhei:
 
 > ## Angular
 
