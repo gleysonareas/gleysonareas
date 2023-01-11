@@ -1,6 +1,6 @@
 - 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no linkedin para saber um pouco mais sobre mim.
 
-#Linkedin
+# Linkedin
 click here: https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/
 
 # Projetos de outras empresas as quais trabalhei
@@ -12,7 +12,7 @@ click here: https://www.gomeyra.com/
 
 **Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.**
 
-# My projetos de estudo:
+# Meus projetos de estudo:
 
 > ## Html and CSS
 
@@ -53,6 +53,8 @@ click here: https://gleysonareas.github.io/finansys/
 
 - ### Meat App Starter
 click here: https://gleysonareas.github.io/meat-app-starter/
+
+**Projeto desenvolvido em angular 4 e atulizado para as versões 5 e 6 ao longo do curso minitrado pela coder**
 
 
 > ## Typescript
