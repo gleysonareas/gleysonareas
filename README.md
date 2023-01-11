@@ -1,24 +1,35 @@
-- 👋 Hi, I’m @gleysonareas
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no linkedin para saber um pouco mais sobre mim.
 
-# My Study Projects:
+#Linkedin
+click here: https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/
+
+# Projetos de outras empresas as quais trabalhei
+
+> ## Angular
+
+- ### Gomeyra web corporate
+click here: https://www.gomeyra.com/
+
+**Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.**
+
+# My projetos de estudo:
 
 > ## Html and CSS
 
 - ### Glass Project
 click here: https://gleysonareas.github.io/glass-project/
 
-**A highlight for this project that was the beginning of my studies, the same was done only with html, css and one or another line of java script, at the time based on Gustavo Guanabara's course, top I still remember this phase with affection**
+**Um destaque para este projeto que foi o início dos meus estudos, o mesmo era feito apenas com html, css e uma ou outra linha de java script, na época baseado no curso do Gustavo Guanabara, top ainda me lembro desta fase com carinho**
 
 - ### Flexblog
 click here: https://gleysonareas.github.io/flexblog/
 
+**Projeto html e css desenvolvido utilizando flexbox com base no curso da plataforma origamid**
+
 - ### Wildbeast
 click here: https://gleysonareas.github.io/wildbeast/
 
+**Projeto html e css desenvolvido utilizando grid layout com base no curso da plataforma origamid**
 
 
 > ## Angular
@@ -26,19 +37,19 @@ click here: https://gleysonareas.github.io/wildbeast/
 - ### Wk Test App
 click here: https://gleysonareas.github.io/wk-test-app/
 
-**Knowledge test project used to verify my learning regarding front-end technologies**
+**Projeto de teste de conhecimento usado para verificar meu aprendizado sobre tecnologias de front-end**
 
 
 - ### Crud
 click here: https://gleysonareas.github.io/crud/
 
-**Basic project in angular written with version 9 of the framework, using angular material, a little flex-layout, based on the coder course presented by Leonardo leitão**
+**Projeto básico em angular escrito com versão 9 do framework, utilizando material angular, um pouco de flex-layout, baseado no curso da coder apresentado por Leonardo leitão**
 
 
 - ### Finansys
 click here: https://gleysonareas.github.io/finansys/
 
-**Project developed based on the master detail architecture of code reuse, initially written in angular 7 and later updated at the end of the course to version 11 of the framework**
+**Projeto desenvolvido com base na arquitetura master detail de reuso de código, escrito inicialmente em angular 7 e posteriormente atualizado no final do curso para a versão 11 do framework**
 
 - ### Meat App Starter
 click here: https://gleysonareas.github.io/meat-app-starter/
@@ -48,6 +59,8 @@ click here: https://gleysonareas.github.io/meat-app-starter/
 
 - ### Calculator
 click here: https://gleysonareas.github.io/calculator/
+
+**Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
 <!---
 gleysonareas/gleysonareas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
