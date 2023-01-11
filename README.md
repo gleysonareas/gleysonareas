@@ -1,6 +1,6 @@
-- 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no linkedin para saber um pouco mais sobre mim.
+- 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no linkedin para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar esse PDF com um curriculum resumido sobre as minhas stacks: [Curriculum Gleyson.pdf](https://github.com/gleysonareas/gleysonareas/files/10388259/Curriculum.Gleyson.pdf)
 
-# Linkedin
+## Linkedin
 click here: https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/
 
 # Projetos de outras empresas as quais trabalhei
@@ -65,6 +65,6 @@ click here: https://gleysonareas.github.io/calculator/
 **Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
 <!---
-gleysonareas/gleysonareas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+gleysonareas/gleysonareas é um repositório ✨ especial ✨ porque seu `README.md` (este arquivo) aparece no seu perfil do GitHub.
+Você pode clicar no link Visualizar para ver suas alterações.
 --->
