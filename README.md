@@ -5,8 +5,7 @@
 
 > ## Angular
 
-- ### Gomeyra web corporate
-click here: https://www.gomeyra.com/
+- ### [Gomeyra web corporate](https://www.gomeyra.com/)
 
 **Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.**
 
@@ -14,51 +13,43 @@ click here: https://www.gomeyra.com/
 
 > ## Html and CSS
 
-- ### Glass Project
-click here: https://gleysonareas.github.io/glass-project/
+- ### [Glass Project](https://gleysonareas.github.io/glass-project/)
 
 **Um destaque para este projeto que foi o início dos meus estudos, o mesmo era feito apenas com html, css e uma ou outra linha de java script, na época baseado no curso do Gustavo Guanabara, top ainda me lembro desta fase com carinho**
 
-- ### Flexblog
-click here: https://gleysonareas.github.io/flexblog/
+- ### [Flexblog](https://gleysonareas.github.io/flexblog/)
 
 **Projeto html e css desenvolvido utilizando flexbox com base no curso da plataforma origamid**
 
-- ### Wildbeast
-click here: https://gleysonareas.github.io/wildbeast/
+- ### [Wildbeast](https://gleysonareas.github.io/wildbeast/)
 
 **Projeto html e css desenvolvido utilizando grid layout com base no curso da plataforma origamid**
 
 
 > ## Angular
 
-- ### Wk Test App
-click here: https://gleysonareas.github.io/wk-test-app/
+- ### [Wk Test App](https://gleysonareas.github.io/wk-test-app/)
 
 **Projeto de teste de conhecimento usado para verificar meu aprendizado sobre tecnologias de front-end**
 
 
-- ### Crud
-click here: https://gleysonareas.github.io/crud/
+- ### [Crud](https://gleysonareas.github.io/crud/)
 
 **Projeto básico em angular escrito com versão 9 do framework, utilizando material angular, um pouco de flex-layout, baseado no curso da coder apresentado por Leonardo leitão**
 
 
-- ### Finansys
-click here: https://gleysonareas.github.io/finansys/
+- ### [Finansys](https://gleysonareas.github.io/finansys/)
 
 **Projeto desenvolvido com base na arquitetura master detail de reuso de código, escrito inicialmente em angular 7 e posteriormente atualizado no final do curso para a versão 11 do framework**
 
-- ### Meat App Starter
-click here: https://gleysonareas.github.io/meat-app-starter/
+- ### [Meat App Starter](https://gleysonareas.github.io/meat-app-starter/)
 
 **Projeto desenvolvido em angular 4 e atulizado para as versões 5 e 6 ao longo do curso minitrado pela coder**
 
 
 > ## Typescript
 
-- ### Calculator
-click here: https://gleysonareas.github.io/calculator/
+- ### [Calculator](https://gleysonareas.github.io/calculator/)
 
 **Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
