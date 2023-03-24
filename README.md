@@ -9,6 +9,7 @@
 
 **Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.**
 
+
 > ## VueJs/Nuxt
 
 - ### [Liberfly](https://www.liberfly.com.br/)
