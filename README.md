@@ -9,6 +9,12 @@
 
 **Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.**
 
+> ## VueJs/Nuxt
+
+- ### [Liberfly](https://www.liberfly.com.br/)
+
+**Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade projeto. Liberfly é um projeto que busca fazer a integração entre clientes que tiveram problemas com empresas de transporte aéreo e advogados.**
+
 # Meus projetos de estudo:
 
 > ## Html and CSS
