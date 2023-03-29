@@ -60,6 +60,12 @@
 
 **Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
+> ## VueJs and NuxtJs
+
+- ### [Monster Slayer](https://gleysonareas.github.io/monster-slayer/)
+
+**Projeto desenvolvido utilizando VueJs com base no curso ministrado pela cod3r**
+
 <!---
 gleysonareas/gleysonareas é um repositório ✨ especial ✨ porque seu `README.md` (este arquivo) aparece no seu perfil do GitHub.
 Você pode clicar no link Visualizar para ver suas alterações.
