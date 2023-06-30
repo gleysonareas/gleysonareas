@@ -35,15 +35,9 @@
 
 > ## Angular
 
-- ### [Wk Test App](https://gleysonareas.github.io/wk-test-app/)
-
-**Projeto de teste de conhecimento usado para verificar meu aprendizado sobre tecnologias de front-end**
-
-
 - ### [Crud](https://gleysonareas.github.io/crud/)
 
 **Projeto básico em angular escrito com versão 9 do framework, utilizando material angular, um pouco de flex-layout, baseado no curso da coder apresentado por Leonardo leitão**
-
 
 - ### [Finansys](https://gleysonareas.github.io/finansys/)
 
