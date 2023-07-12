@@ -1,16 +1,23 @@
-> 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no [Linkedin](https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/) para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar esse PDF com um curriculum resumido sobre as minhas stacks: [Curriculum.pdf](https://github.com/gleysonareas/gleysonareas/files/10388259/Curriculum.Gleyson.pdf)
+> 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no [Linkedin](https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/) para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar os seguintes PDF com um curriculum sobre as minhas stacks tanto em português quanto em inglês vide abaixo:
+
+- ### [Curriculum Resumido.pdf](https://github.com/gleysonareas/gleysonareas/files/12033175/Curriculum.Gleyson.Resumido.pdf)
+- ### [Curriculum Resumido Ingles.pdf](https://github.com/gleysonareas/gleysonareas/files/12033174/Curriculum.Gleyson.Resumido.Ingles.pdf)
+- ### [Curriculum Completo.pdf](https://github.com/gleysonareas/gleysonareas/files/12033173/Curriculum.Gleyson.Completo.pdf)
+- ### [Curriculum Completo Inglês.pdf](https://github.com/gleysonareas/gleysonareas/files/12033172/Curriculum.Gleyson.Completo.Ingles.pdf)
 
 
 # Certificados de conclusão de curso:
 > ### Angular
-- ### [Angular 4,5,6]()
-- ### [Angular 9]()
-- ### [Angular 11 Master Details]()
+- ### [Angular 4,5,6](https://www.udemy.com/certificate/UC-c6b79824-3518-48c0-ba67-d6848cb60107/)
+- ### [Angular 9](https://www.cod3r.com.br/certificates/1kjsut8fbt)
+- ### [Angular 11 Avançado](https://www.udemy.com/certificate/UC-112fab47-c632-44d7-8494-c8295cceca1b/)
 > ### Typescript
-- ### [Dominando Typescript]()
+- ### [Dominando Typescript](https://www.udemy.com/certificate/UC-213b3589-c04d-4dfe-bb7d-9b18c4564369/)
 > ### CSS
-- ### [CSS Flexbox]()
-- ### [CSS Grid Layout]()
+- ### [CSS Flexbox](https://origamid.com/certificate/089ca63e)
+- ### [CSS Grid Layout](https://origamid.com/certificate/04f41437)
+> ### Devtools
+- ### [Devtools Pro](https://www.udemy.com/certificate/UC-6c12f9cf-1c99-4bb9-a847-fcad355678d1/)
 
 
 # Projetos de outras empresas as quais trabalhei:
