@@ -1,6 +1,18 @@
 > 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no [Linkedin](https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/) para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar esse PDF com um curriculum resumido sobre as minhas stacks: [Curriculum.pdf](https://github.com/gleysonareas/gleysonareas/files/10388259/Curriculum.Gleyson.pdf)
 
 
+# Certificados de conclusão de curso:
+> ### Angular
+- ### [Angular 4,5,6]()
+- ### [Angular 9]()
+- ### [Angular 11 Master Details]()
+> ### Typescript
+- ### [Dominando Typescript]()
+> ### CSS
+- ### [CSS Flexbox]()
+- ### [CSS Grid Layout]()
+
+
 # Projetos de outras empresas as quais trabalhei:
 
 > ## Angular
@@ -51,7 +63,6 @@
 > ## Typescript
 
 - ### [Calculator](https://gleysonareas.github.io/calculator/)
-- #### [Certificado do curso](https://www.udemy.com/certificate/UC-213b3589-c04d-4dfe-bb7d-9b18c4564369/)
 **Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
 > ## VueJs and NuxtJs
