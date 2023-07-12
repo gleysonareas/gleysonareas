@@ -51,7 +51,7 @@
 > ## Typescript
 
 - ### [Calculator](https://gleysonareas.github.io/calculator/)
-
+- #### [Certificado do curso](https://www.udemy.com/certificate/UC-213b3589-c04d-4dfe-bb7d-9b18c4564369/)
 **Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode**
 
 > ## VueJs and NuxtJs
