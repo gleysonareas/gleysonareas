@@ -54,6 +54,9 @@
 
 > ## Angular
 
+- ### [Todo-app](https://gleysonareas.github.io/todo-app/)
+**Projeto criado com Angular 14 integrado ao localStorage, para persistir os dados**
+
 - ### [Crud](https://gleysonareas.github.io/crud/)
 
 **Projeto básico em angular escrito com versão 9 do framework, utilizando material angular, um pouco de flex-layout, baseado no curso da coder apresentado por Leonardo leitão**
