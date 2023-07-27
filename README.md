@@ -31,9 +31,23 @@
 
 > ## VueJs/Nuxt
 
-- ### [Liberfly](https://www.liberfly.com.br/)
+- ### [Liberfly web site](https://www.liberfly.com.br/)
 
-**Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade projeto. Liberfly é um projeto que busca fazer a integração entre clientes que tiveram problemas com empresas de transporte aéreo e advogados.**
+**Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto. Liberfly web site é um projeto que busca fazer a integração entre clientes que tiveram problemas com empresas de transporte aéreo e advogados.**
+
+- ### [Liberfly palavras chave](https://liberfly.liberfly.com.br/)
+
+**Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto. Liberfly palavras chave é um projeto que busca que busca através de alguns recursos e ferramentas de SEO melhorar o hanckeamento da pagina da empresa nos sites de busca.**
+
+- ### [Med mundo](https://www.medmundo.com.br/)
+
+**Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto. Med mundo é um projeto que visa divulgar direitos que os profissionais de medicina possuem.**
+
+> ## Wordpress
+
+- ### [Liberfly blog](https://blog.liberfly.com.br/)
+
+**Projeto desenvolvido com auxilio do CMS Wordpress e plugins como o Elementor para divulgar informações relacionadas a área ou nicho de atuação da empresa**
 
 # Meus projetos de estudo:
 
