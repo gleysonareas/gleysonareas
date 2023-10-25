@@ -1,31 +1,3 @@
-<div align="center">
-  <a href="https://github.com/gleysonareas">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleysonareas&theme=chartreuse-dark&layout=compact&(https://github.com/gleysonareas)"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gleysonareas&theme=chartreuse-dark&include_all_commits=true&(https://github.com/gleysonareas)"/>   
-</div>
-
-  
-<div style="display: inline_block" align="center"><br>
-   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-   <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-   <img align="center" alt="Ang" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
-   <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
-   <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
-</div>
-  
-   ##
- 
-<div align="center"> 
-  <a href = "mailto:gleyson@appicompany.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-  </a>
-  <a href="https://www.linkedin.com/in/gleyson-areas-da-silva/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-  </a> 
-</div>
-
 > 👋 Olá, Eu sou @gleysonareas através desse reposítório você fica por dentro do meu portifólio incluindo todos os meus projetos de estudo publicado. Fique a vontade para navegar entre os repositórios para conhecer um pouco sobre a minha experiencia e também visitar meu perfil no [Linkedin](https://www.linkedin.com/in/gleyson-areas-da-silva-a2b79b115/) para saber um pouco mais sobre mim. Além disso caso queira você pode visualizar os seguintes PDF com um curriculum sobre as minhas stacks tanto em português quanto em inglês vide abaixo:
 
 - ### [Curriculum Resumido.pdf](https://github.com/gleysonareas/gleysonareas/files/12033175/Curriculum.Gleyson.Resumido.pdf)
@@ -127,3 +99,43 @@
 gleysonareas/gleysonareas é um repositório ✨ especial ✨ porque seu `README.md` (este arquivo) aparece no seu perfil do GitHub.
 Você pode clicar no link Visualizar para ver suas alterações.
 --->
+
+##
+
+<div align="center">
+  <a href="https://github.com/gleysonareas">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleysonareas&theme=chartreuse-dark&layout=compact&(https://github.com/gleysonareas)"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gleysonareas&theme=chartreuse-dark&include_all_commits=true&(https://github.com/gleysonareas)"/>   
+</div>
+
+  
+<div style="display: inline_block" align="center"><br>
+   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+   <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+   <img align="center" alt="Ang" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+   <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
+   <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
+</div>
+  
+##
+ 
+<div align="center"> 
+  <a href = "mailto:gleyson@appicompany.com">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.linkedin.com/in/gleyson-areas-da-silva/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a> 
+</div>
+
+##
+
+<div align=center>
+  <h3><b>📍 Profile Visitor Count</b></h3>
+</div>
+    
+<p align="center" >   
+  <img src="https://profile-counter.glitch.me/gleysonareas/count.svg" />  
+</p>
