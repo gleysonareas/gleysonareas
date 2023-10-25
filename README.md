@@ -1,17 +1,19 @@
 <div align="center">
   <a href="https://github.com/gleysonareas">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleysonareas&theme=chartreuse-dark&layout=compact&(https://github.com/gleysonareas/gleysonareas)"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleysonareas&theme=chartreuse-dark&layout=compact&(https://github.com/gleysonareas)"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gleysonareas&theme=chartreuse-dark&include_all_commits=true&(https://github.com/gleysonareas)"/>   
 </div>
+
   
-  <div style="display: inline_block" align="center"><br>
-    <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-    <img align="center" alt="Ang" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
-    <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
-    <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
-  </div>
+<div style="display: inline_block" align="center"><br>
+   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+   <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+   <img align="center" alt="Ang" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+   <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
+   <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
+</div>
   
    ##
  
