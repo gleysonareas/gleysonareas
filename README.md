@@ -107,7 +107,6 @@ Você pode clicar no link Visualizar para ver suas alterações.
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleysonareas&theme=chartreuse-dark&layout=compact&(https://github.com/gleysonareas)"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gleysonareas&theme=chartreuse-dark&include_all_commits=true&(https://github.com/gleysonareas)"/>   
 </div>
-
   
 <div style="display: inline_block" align="center"><br>
    <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -118,8 +117,6 @@ Você pode clicar no link Visualizar para ver suas alterações.
    <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
    <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
 </div>
-  
-##
  
 <div align="center"> 
   <a href = "mailto:gleyson@appicompany.com">
