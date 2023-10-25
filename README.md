@@ -117,6 +117,8 @@ Você pode clicar no link Visualizar para ver suas alterações.
    <img align="center" alt="github" height="30" width="35" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
    <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" >
 </div>
+
+<br/>
  
 <div align="center"> 
   <a href = "mailto:gleyson@appicompany.com">
