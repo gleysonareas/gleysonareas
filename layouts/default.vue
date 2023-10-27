@@ -4,9 +4,10 @@
     <div class="w-11/12 h-3/4">
       <slot />
     </div>
-    <FooterContent />
+    <!-- <FooterContent /> -->
   </div>
 </template>
+
 <script setup lang="ts">
 import HeaderContent from "../core/template/Header/Content.vue"
 import FooterContent from "../core/template/Footer/Content.vue"
