@@ -1,6 +1,8 @@
 <template>
   <NuxtLayout name="error-layout">
-    <NuxtPage />
+    <NotFoundContent />
   </NuxtLayout>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NotFoundContent from "../components/NotFound/Content.vue"
+</script>
