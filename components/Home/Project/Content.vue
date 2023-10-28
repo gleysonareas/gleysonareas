@@ -23,83 +23,13 @@
 </template>
 
 <script setup lang="ts">
-import CardContent from "../../../shared/components/Card/Content.vue"
+import CardContent from "../../../shared/components/Card/Content.vue";
+import { projectsWork } from "../../../utils/consts/projects-work";
+import { ProjectsStudy } from "../../../utils/consts/projects-study";
 
-const workProjects = ref<any>([
-  {
-    title: 'Gomeyra web site',
-    description: 'Projeto escrito em angular utilizando do padrão ssr para gerar paginas estáticas além é claro a utilização de tecnologias css como flexbox e grid layout para garantir ao usuário uma boa experiencia com relação a responsividade.',
-    path: 'https://www.gomeyra.com/'
-  },
-  {
-    title: 'Liberfly web site',
-    description: 'Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto.',
-    path: 'https://www.liberfly.com.br/'
-  },
-  {
-    title: 'Liberfly palavras chave',
-    description: 'Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto.',
-    path: 'https://liberfly.liberfly.com.br/'
-  },
-  {
-    title: 'Med mundo',
-    description: 'Projeto escrito em vueJs 2 utilizando nuxtJs e padrão de compilação ssr para gerar paginas estáticas alem é claro a utilização de tecnologias css como flexbox e grid layout para garantir uma boa experiencia ao usuario com relação a responsividade do projeto.',
-    path: 'https://www.medmundo.com.br/'
-  },
-  {
-    title: 'Liberfly blog',
-    description: 'Projeto desenvolvido com auxilio do CMS Wordpress e plugins como o Elementor para divulgar informações relacionadas a área ou nicho de atuação da empresa.',
-    path: 'https://blog.liberfly.com.br/'
-  },
-])
+const workProjects = ref<any>(projectsWork);
+const studyProjects = ref<any>(ProjectsStudy);
 
-const studyProjects = ref<any>([
-  {
-    title: 'Glass Project',
-    description: 'Um destaque para este projeto que foi o início dos meus estudos, o mesmo era feito apenas com html, css e uma ou outra linha de java script, na época baseado no curso do Gustavo Guanabara, top ainda me lembro desta fase com carinho',
-    path: 'https://gleysonareas.github.io/glass-project/'
-  },
-  {
-    title: 'Flexblog',
-    description: 'Projeto html e css desenvolvido utilizando flexbox com base no curso da plataforma origamid',
-    path: 'https://gleysonareas.github.io/flexblog/'
-  },
-  {
-    title: 'Wildbeast',
-    description: 'Projeto html e css desenvolvido utilizando grid layout com base no curso da plataforma origamid',
-    path: 'https://gleysonareas.github.io/wildbeast/'
-  },
-  {
-    title: 'Todo-app',
-    description: 'Projeto criado com Angular 14 integrado ao localStorage, para persistir os dados',
-    path: 'https://gleysonareas.github.io/todo-app/'
-  },
-  {
-    title: 'Crud',
-    description: 'Projeto básico em angular escrito com versão 9 do framework, utilizando material angular, um pouco de flex-layout, baseado no curso da coder apresentado por Leonardo leitão',
-    path: 'https://gleysonareas.github.io/crud/'
-  },
-  {
-    title: 'Finansys',
-    description: 'Projeto desenvolvido com base na arquitetura master detail de reuso de código, escrito inicialmente em angular 7 e posteriormente atualizado no final do curso para a versão 11 do framework',
-    path: 'https://gleysonareas.github.io/finansys/'
-  },
-  {
-    title: 'Meat App Starter',
-    description: 'Projeto desenvolvido em angular 4 e atulizado para as versões 5 e 6 ao longo do curso minitrado pela coder',
-    path: 'https://gleysonareas.github.io/meat-app-starter/'
-  },
-  {
-    title: 'Calculator',
-    description: 'Projeto desenvolvido utilizando typescript com base no curso ministrado pela hcode',
-    path: 'https://gleysonareas.github.io/calculator/'
-  },
-  {
-    title: 'Monster Slayer',
-    description: 'Projeto desenvolvido utilizando VueJs com base no curso ministrado pela cod3r',
-    path: 'https://gleysonareas.github.io/monster-slayer/'
-  },
-])
 </script>
 
 <style lang="scss">
