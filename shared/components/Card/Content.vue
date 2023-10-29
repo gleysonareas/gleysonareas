@@ -4,7 +4,7 @@
       <h1>{{ data.title }}</h1>
     </div>
     <div class="card__body">
-      <p>{{ data.description }}</p>
+      <p><strong>Tecnologias:</strong> {{ data.technologies }}</p>
     </div>
     <div class="card__footer">
       <a :href="data.path">
@@ -39,6 +39,12 @@ defineProps({
   &__body {
     text-align: center;
     overflow: auto;
+
+    p {
+      strong {
+        color: #000;
+      }
+    }
   }
 
   &__footer {
