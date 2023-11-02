@@ -9,12 +9,12 @@
     <div class="home-project">
       <ProjectContent />
     </div>
-    <div class="home-documents">
+    <!-- <div class="home-documents">
       <DocumentsContent />
     </div>
     <div class="home-contact">
       <ContactContent />
-    </div>
+    </div> -->
   </div>
 </template>
 
