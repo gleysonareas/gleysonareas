@@ -25,8 +25,8 @@ defineProps({
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5rem;
-  height: -webkit-fill-available;
+  padding: 1rem;
+  height: 100%;
   justify-content: space-between;
 
   &__header {
