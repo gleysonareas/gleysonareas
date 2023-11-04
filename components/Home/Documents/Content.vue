@@ -31,19 +31,19 @@ const linkStyle = ref<string>(
 const documents = ref<any[]>([
   {
     name: "Curriculum Resumido Português",
-    link: "",
+    link: "https://drive.google.com/file/d/12cZj9sBoypjNWLVrIRsHNC4LL4jzXYAi/view?usp=sharing",
   },
   {
     name: "Curriculum Completo Português",
-    link: "",
+    link: "https://drive.google.com/file/d/12aJn5c4aHUoSXMZ-Uj3cArv03vPjDfMH/view?usp=sharing",
   },
   {
     name: "Curriculum Resumido Inglês",
-    link: "",
+    link: "https://drive.google.com/file/d/12_VhXbbSysNtbj40QG4bmPIJPefOwPsU/view?usp=sharing",
   },
   {
     name: "Curriculum Completo Inglês",
-    link: "",
+    link: "https://drive.google.com/file/d/12aBWbjLHNwApwFTWXWQLoctraHxU8Kka/view?usp=sharing",
   },
 ]);
 const certificate = ref<any[]>([
