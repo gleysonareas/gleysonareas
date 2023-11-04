@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-screen bg-slate-950 text-slate-400 justify-between items-center">
+  <div class="flex flex-col bg-slate-950 text-slate-400 justify-between items-center">
     <HeaderContent />
     <div class="w-11/12 h-3/4">
       <slot />

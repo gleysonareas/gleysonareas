@@ -3,18 +3,18 @@
     <div class="home-banner">
       <BannerContent />
     </div>
-    <div class="home-description">
-      <DescriptionContent />
+    <div class="home-documents">
+      <DocumentsContent />
     </div>
     <div class="home-project">
       <ProjectContent />
     </div>
-    <!-- <div class="home-documents">
-      <DocumentsContent />
+    <div class="home-description">
+      <DescriptionContent />
     </div>
     <div class="home-contact">
       <ContactContent />
-    </div> -->
+    </div>
   </div>
 </template>
 

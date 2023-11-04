@@ -2,14 +2,14 @@
   <div class="projects-container">
     <p class="category">Projetos de empresas:</p>
     <div class="projects-content">
-      <div class="projects-item" v-for="(item, id) in workProjects" :key="id">
+      <div class="projects-item shadow-lg shadow-blue-500/50" v-for="(item, id) in workProjects" :key="id">
         <CardContent :data="item" />
       </div>
     </div>
 
     <p class="category">Projetos de estudos:</p>
     <div class="projects-content">
-      <div class="projects-item" v-for="(item, id) in studyProjects" :key="id">
+      <div class="projects-item shadow-lg shadow-blue-500/50" v-for="(item, id) in studyProjects" :key="id">
         <CardContent :data="item" />
       </div>
     </div>
@@ -53,7 +53,6 @@ const studyProjects = ref<any>(ProjectsStudy);
     .projects-item {
       border: 1px solid rgba(0, 0, 0, 0.7137254902);
       border-radius: 5px;
-      box-shadow: 4px 4px 4px #0000ff;
       display: flex;
       flex-direction: column;
       max-width: 290px;
