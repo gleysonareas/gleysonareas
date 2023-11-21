@@ -1,16 +1,14 @@
 <template>
-  <div class="banner-container">
-    <div class="content-banner">
-      <h1 class="banner-title">Desenvolvedor front-end Angular, Vue e Nuxt</h1>
-      <h2 class="banner-subtitle">Juntos, criamos uma presença digital impactante e duradoura.</h2>
-      <!-- <gt-button-action nameButton="Faça seu orçamento conosco!"></gt-button-action> -->
+  <div class="banner">
+    <div class="banner__content">
+      <h1>Desenvolvedor front-end Angular, Vue e Nuxt</h1>
+      <h2>Juntos, criamos uma presença digital impactante e duradoura.</h2>
     </div>
   </div>
 </template>
 <script setup lang="ts"></script>
-<style lang="scss">
-.banner-container {
-  // background-color: #030e20;
+<style scoped lang="scss">
+.banner {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -18,16 +16,15 @@
   align-items: center;
   justify-content: center;
 
-  .content-banner {
+  &__content {
     display: flex;
     flex-direction: column;
     gap: 16px;
     max-width: 768px;
-    // font-family: "Red Hat Display";
     font-style: normal;
     text-align: center;
 
-    .banner-title {
+    h1 {
       color: #fff;
       font-weight: 700;
       font-size: 54px;
@@ -35,7 +32,7 @@
       text-align: center;
     }
 
-    .banner-subtitle {
+    h2 {
       font-weight: 400;
       font-size: 22px;
       line-height: 29px;
@@ -45,19 +42,20 @@
 }
 
 @media (max-width: 425px) {
-  .banner-container {
-    .content-banner {
+  .banner {
+    &__content {
       max-width: 370px;
 
-      .banner-title {
+      h1 {
         font-size: 25px;
         line-height: 40px;
       }
 
-      .banner-subtitle {
+      h2 {
         font-size: 17px;
         line-height: 25px;
       }
     }
   }
-}</style>
+}
+</style>

@@ -1,15 +1,15 @@
 <template>
-  <div class="projects-container">
-    <p class="category">Projetos de empresas:</p>
-    <div class="projects-content">
-      <div class="projects-item shadow-lg shadow-blue-500/50" v-for="(item, id) in workProjects" :key="id">
+  <div class="projects">
+    <p>Projetos de empresas:</p>
+    <div class="projects__content">
+      <div class="projects__content__item shadow-lg shadow-blue-500/50" v-for="(item, id) in workProjects" :key="id">
         <CardContent :data="item" />
       </div>
     </div>
 
-    <p class="category">Projetos de estudos:</p>
-    <div class="projects-content">
-      <div class="projects-item shadow-lg shadow-blue-500/50" v-for="(item, id) in studyProjects" :key="id">
+    <p>Projetos de estudos:</p>
+    <div class="projects__content">
+      <div class="projects__content__item shadow-lg shadow-blue-500/50" v-for="(item, id) in studyProjects" :key="id">
         <CardContent :data="item" />
       </div>
     </div>
@@ -26,8 +26,8 @@ const studyProjects = ref<any>(ProjectsStudy);
 
 </script>
 
-<style lang="scss">
-.projects-container {
+<style scoped lang="scss">
+.projects {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -36,21 +36,21 @@ const studyProjects = ref<any>(ProjectsStudy);
   flex-direction: column;
   padding: 7% 0;
 
-  .category {
+  p {
     font-size: 2rem;
     font-weight: 500;
     padding: 1rem;
   }
 
-  .projects-content {
+  &__content {
     max-width: 950px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
-    .projects-item {
+    &__item {
       border: 1px solid rgba(0, 0, 0, 0.7137254902);
       border-radius: 5px;
       display: flex;
@@ -67,11 +67,11 @@ const studyProjects = ref<any>(ProjectsStudy);
 }
 
 @media (max-width: 425px) {
-  .projects-container {
+  .projects {
     gap: 0;
     padding: 30% 0;
 
-    .projects-content {
+    &__content {
       flex-direction: column;
       height: 100%;
       justify-content: space-evenly;

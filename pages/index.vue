@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <div class="home-banner">
+    <div class="home__banner">
       <BannerContent />
     </div>
-    <div class="home-documents">
+    <div class="home__documents">
       <DocumentsContent />
     </div>
-    <div class="home-project">
+    <div class="home__project">
       <ProjectContent />
     </div>
-    <div class="home-description">
+    <div class="home__description">
       <DescriptionContent />
     </div>
-    <div class="home-contact">
+    <div class="home__contact">
       <ContactContent />
     </div>
   </div>

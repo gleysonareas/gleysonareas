@@ -1,22 +1,20 @@
 <template>
-  <div class="mt-32">
-    <h1 class="projects-title">Alguns Documentos & Certificados</h1>
-    <h2 class="category">
-      Curriculuns, clique e baixe de acordo com seu idioma e necessidade:
+  <div class="documents mt-32">
+    <h1>Alguns Documentos & Certificados</h1>
+    <h2>
+      Curriculos, clique e baixe de acordo com seu idioma e necessidade:
     </h2>
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in documents" :key="id">
-        <p class="title-card">{{ item.name }}</p>
+        <p>{{ item.name }}</p>
         <a :class="linkStyle" :href="item.link">Cique e Baixe</a>
       </div>
     </section>
-    <h2 class="category">Certificados, clique e acesse:</h2>
+    <h2>Certificados, clique e acesse:</h2>
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in certificate" :key="id">
-        <p class="title-card">{{ item.name }}</p>
-        <a target="_blank" :class="linkStyle" :href="item.link"
-          >Cique e Acesse</a
-        >
+        <p>{{ item.name }}</p>
+        <a target="_blank" :class="linkStyle" :href="item.link">Cique e Acesse</a>
       </div>
     </section>
   </div>
@@ -77,22 +75,23 @@ const certificate = ref<any[]>([
   },
 ]);
 </script>
-<style lang="scss">
-.projects-title {
+<style scoped lang="scss">
+h1 {
   color: #fff;
   font-weight: 700;
   font-size: 40px;
   line-height: 55px;
   text-align: center;
 }
-.category {
+
+h2 {
   font-size: 2rem;
   font-weight: 500;
   padding: 1rem;
   text-align: center;
 }
 
-.title-card {
+p {
   font-size: 1.3rem;
   font-weight: 500;
   color: #000;
