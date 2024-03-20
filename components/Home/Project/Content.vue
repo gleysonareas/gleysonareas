@@ -2,14 +2,22 @@
   <div class="projects">
     <p>Projetos de empresas:</p>
     <div class="projects__content">
-      <div class="projects__content__item shadow-lg shadow-blue-500/50" v-for="(item, id) in workProjects" :key="id">
+      <div
+        class="projects__content__item shadow-lg shadow-blue-500/50"
+        v-for="(item, id) in workProjects"
+        :key="id"
+      >
         <CardContent :data="item" />
       </div>
     </div>
 
     <p>Projetos de estudos:</p>
     <div class="projects__content">
-      <div class="projects__content__item shadow-lg shadow-blue-500/50" v-for="(item, id) in studyProjects" :key="id">
+      <div
+        class="projects__content__item shadow-lg shadow-blue-500/50"
+        v-for="(item, id) in studyProjects"
+        :key="id"
+      >
         <CardContent :data="item" />
       </div>
     </div>
@@ -23,7 +31,6 @@ import { ProjectsStudy } from "../../../utils/consts/projects-study";
 
 const workProjects = ref<any>(projectsWork);
 const studyProjects = ref<any>(ProjectsStudy);
-
 </script>
 
 <style scoped lang="scss">
@@ -55,13 +62,14 @@ const studyProjects = ref<any>(ProjectsStudy);
       border-radius: 5px;
       display: flex;
       flex-direction: column;
-      max-width: 290px;
-      width: 100%;
-      height: 200px;
       align-items: center;
-      justify-content: center;
       background-color: #fff;
       margin: 1.3%;
+      justify-content: space-around;
+      border-top-right-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+      height: 15rem;
+      width: 15rem;
     }
   }
 }

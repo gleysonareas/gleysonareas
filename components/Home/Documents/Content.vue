@@ -1,9 +1,7 @@
 <template>
   <div class="documents mt-32">
     <h1>Alguns Documentos & Certificados</h1>
-    <h2>
-      Curriculos, clique e baixe de acordo com seu idioma e necessidade:
-    </h2>
+    <h2>Curriculos, clique e baixe de acordo com seu idioma e necessidade:</h2>
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in documents" :key="id">
         <p>{{ item.name }}</p>
@@ -14,14 +12,16 @@
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in certificate" :key="id">
         <p>{{ item.name }}</p>
-        <a target="_blank" :class="linkStyle" :href="item.link">Cique e Acesse</a>
+        <a target="_blank" :class="linkStyle" :href="item.link"
+          >Cique e Acesse</a
+        >
       </div>
     </section>
   </div>
 </template>
 <script setup lang="ts">
 const cardStyle = ref<string>(
-  `gap-2 document-card flex flex-col justify-center items-center w-64 h-32 bg-white rounded border-solid border-1 border-slate-950 shadow-lg shadow-blue-500/50`
+  `gap-2 document-card flex flex-col justify-center items-center bg-white rounded border-solid border-1 border-slate-950 shadow-lg shadow-blue-500/50`
 );
 const linkStyle = ref<string>(
   `rounded p-1 bg-blue-500 shadow-lg shadow-blue-500/50 text-neutral-200`
@@ -76,6 +76,16 @@ const certificate = ref<any[]>([
 ]);
 </script>
 <style scoped lang="scss">
+.document-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  height: 15rem;
+  width: 10rem;
+}
+
 h1 {
   color: #fff;
   font-weight: 700;
