@@ -2,7 +2,7 @@
   <div class="documents mt-32">
     <h1>Alguns Documentos & Certificados</h1>
     <h2>Curriculos, clique e baixe de acordo com seu idioma e necessidade:</h2>
-    <section class="flex flex-wrap justify-center gap-4">
+    <section class="container-cards flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in documents" :key="id">
         <p>{{ item.name }}</p>
         <img src="../../../assets/img/pdf.png" alt="" />
@@ -10,7 +10,7 @@
       </div>
     </section>
     <h2>Certificados, clique e acesse:</h2>
-    <section class="flex flex-wrap justify-center gap-4">
+    <section class="container-cards flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in certificate" :key="id">
         <p>{{ item.name }}</p>
         <img src="../../../assets/img/link.png" alt="" />
@@ -78,6 +78,15 @@ const certificate = ref<any[]>([
 ]);
 </script>
 <style scoped lang="scss">
+.documents {
+  display: grid;
+  justify-items: center;
+}
+
+.container-cards {
+  max-width: 60rem;
+}
+
 .document-card {
   display: flex;
   flex-direction: column;
