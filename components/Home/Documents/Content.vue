@@ -5,6 +5,7 @@
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in documents" :key="id">
         <p>{{ item.name }}</p>
+        <img src="../../../assets/img/pdf.png" alt="" />
         <a :class="linkStyle" :href="item.link">Clique e Baixe</a>
       </div>
     </section>
@@ -12,6 +13,7 @@
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in certificate" :key="id">
         <p>{{ item.name }}</p>
+        <img src="../../../assets/img/link.png" alt="" />
         <a target="_blank" :class="linkStyle" :href="item.link"
           >Clique e Acesse</a
         >
@@ -82,8 +84,9 @@ const certificate = ref<any[]>([
   justify-content: space-around;
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;
-  height: 15rem;
-  width: 10rem;
+  height: 16rem;
+  width: 12rem;
+  padding: 1rem;
 }
 
 .document-link {
@@ -104,6 +107,10 @@ h2 {
   font-weight: 500;
   padding: 1rem;
   text-align: center;
+}
+
+img {
+  width: 5rem;
 }
 
 p {

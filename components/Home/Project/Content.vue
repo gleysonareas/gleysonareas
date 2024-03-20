@@ -68,7 +68,7 @@ const studyProjects = ref<any>(ProjectsStudy);
       justify-content: space-around;
       border-top-right-radius: 5rem;
       border-bottom-left-radius: 5rem;
-      height: 15rem;
+      height: 18rem;
       width: 15rem;
     }
   }

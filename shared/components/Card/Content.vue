@@ -2,6 +2,7 @@
   <div class="card">
     <div class="card__header">
       <h1>{{ data.title }}</h1>
+      <img src="../../../assets/img/link.png" alt="" />
     </div>
     <div class="card__body">
       <p><strong>Tecnologias:</strong> {{ data.technologies }}</p>
@@ -33,6 +34,12 @@ defineProps({
     font-weight: 500;
     color: #000;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 5rem;
+    }
   }
 
   &__body {
