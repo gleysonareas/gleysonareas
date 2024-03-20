@@ -5,7 +5,7 @@
     <section class="flex flex-wrap justify-center gap-4">
       <div :class="cardStyle" v-for="(item, id) in documents" :key="id">
         <p>{{ item.name }}</p>
-        <a :class="linkStyle" :href="item.link">Cique e Baixe</a>
+        <a :class="linkStyle" :href="item.link">Clique e Baixe</a>
       </div>
     </section>
     <h2>Certificados, clique e acesse:</h2>
@@ -13,7 +13,7 @@
       <div :class="cardStyle" v-for="(item, id) in certificate" :key="id">
         <p>{{ item.name }}</p>
         <a target="_blank" :class="linkStyle" :href="item.link"
-          >Cique e Acesse</a
+          >Clique e Acesse</a
         >
       </div>
     </section>
@@ -24,7 +24,7 @@ const cardStyle = ref<string>(
   `gap-2 document-card flex flex-col justify-center items-center bg-white rounded border-solid border-1 border-slate-950 shadow-lg shadow-blue-500/50`
 );
 const linkStyle = ref<string>(
-  `rounded p-1 bg-blue-500 shadow-lg shadow-blue-500/50 text-neutral-200`
+  `document-link rounded p-2 bg-blue-500 shadow-lg shadow-blue-500/50 text-neutral-200`
 );
 const documents = ref<any[]>([
   {
@@ -84,6 +84,11 @@ const certificate = ref<any[]>([
   border-bottom-left-radius: 5rem;
   height: 15rem;
   width: 10rem;
+}
+
+.document-link {
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 h1 {

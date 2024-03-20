@@ -7,17 +7,15 @@
       <p><strong>Tecnologias:</strong> {{ data.technologies }}</p>
     </div>
     <div class="card__footer">
-      <a :href="data.path">
-        Clique e acesse
-      </a>
+      <a :href="data.path"> Clique e acesse </a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 defineProps({
-  data: {} as any
-})
+  data: {} as any,
+});
 </script>
 
 <style lang="scss" scoped>
@@ -28,6 +26,7 @@ defineProps({
   padding: 1rem;
   height: 100%;
   justify-content: space-between;
+  padding-bottom: 2rem;
 
   &__header {
     font-size: x-large;
@@ -50,12 +49,14 @@ defineProps({
   &__footer {
     a {
       text-decoration: none;
-      border: 1px solid rgba(0, 0, 0, .7137254902);
+      border: 1px solid rgba(0, 0, 0, 0.7137254902);
       border-radius: 5px;
       box-shadow: 4px 4px 4px #00000040;
       padding: 10px;
       color: #fff;
       background: #0000ff;
+      border-top-right-radius: 2rem;
+      border-bottom-left-radius: 2rem;
     }
   }
 }
