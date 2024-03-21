@@ -77,8 +77,8 @@ defineProps({
 
 @media (max-width: 500px) {
   .card {
-    height: 14rem;
-    width: 10rem;
+    height: 15rem;
+    width: 9rem;
 
     &__header {
       font-size: 14px;
