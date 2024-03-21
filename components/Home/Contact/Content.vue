@@ -7,8 +7,14 @@
         links abaixo:
       </h2>
       <p class="flex flex-wrap gap-2 justify-center">
-        <a v-for="(item, id) in social" :key="id" target="_blank"
-          class="rounded bg-cyan-500 shadow-lg shadow-cyan-500/50 p-1 text-white" :href="item.link">{{ item.name }}</a>
+        <a
+          v-for="(item, id) in social"
+          :key="id"
+          target="_blank"
+          class="rounded bg-cyan-500 shadow-lg shadow-cyan-500/50 p-1 text-white"
+          :href="item.link"
+          >{{ item.name }}</a
+        >
       </p>
     </div>
   </div>
@@ -17,34 +23,34 @@
 <script setup lang="ts">
 const social = ref<any>([
   {
-    link: 'https://appicompany.com/',
-    name: 'Site Appi Company'
+    link: "https://appicompany.com/",
+    name: "Site Appi Company",
   },
   {
-    link: 'https://www.linkedin.com/in/gleyson-areas-da-silva/',
-    name: 'Linkedin'
+    link: "https://www.linkedin.com/in/gleyson-areas-da-silva/",
+    name: "Linkedin",
   },
   {
-    link: 'https://www.facebook.com/gleysondasilva',
-    name: 'Facebook'
+    link: "https://www.facebook.com/gleysondasilva",
+    name: "Facebook",
   },
   {
-    link: 'https://www.instagram.com/gleysonareasdasilva/?hl=pt-br',
-    name: 'Instagram'
+    link: "https://www.instagram.com/gleysonareasdasilva/?hl=pt-br",
+    name: "Instagram",
   },
   {
-    link: 'mailto:gleyson@appicompany.com',
-    name: 'e-mail'
+    link: "mailto:gleyson@appicompany.com",
+    name: "e-mail",
   },
   {
-    link: 'https://api.whatsapp.com/send?phone=5522999052376',
-    name: 'Whatsapp'
+    link: "https://api.whatsapp.com/send?phone=5522999052376",
+    name: "Whatsapp",
   },
   {
-    link: 'https://github.com/gleysonareas/gleysonareas',
-    name: 'Github'
+    link: "https://github.com/gleysonareas/gleysonareas",
+    name: "Github",
   },
-])
+]);
 </script>
 
 <style scoped lang="scss">
@@ -79,6 +85,22 @@ const social = ref<any>([
       font-size: 20px;
       line-height: 29px;
       color: #b8c2d0;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .contact {
+    &__header {
+      h1 {
+        font-size: 30px;
+        line-height: 45px;
+      }
+
+      h2,
+      p {
+        font-size: 10px;
+        line-height: 19px;
+      }
     }
   }
 }

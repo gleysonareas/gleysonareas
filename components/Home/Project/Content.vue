@@ -2,24 +2,24 @@
   <div class="projects">
     <p>Projetos de empresas:</p>
     <div class="projects__content">
-      <div
+      <!-- <div
         class="projects__content__item shadow-lg shadow-blue-500/50"
         v-for="(item, id) in workProjects"
         :key="id"
-      >
-        <CardContent :data="item" />
-      </div>
+      > -->
+      <CardContent v-for="(item, id) in workProjects" :key="id" :data="item" />
+      <!-- </div> -->
     </div>
 
     <p>Projetos de estudos:</p>
     <div class="projects__content">
-      <div
+      <!-- <div
         class="projects__content__item shadow-lg shadow-blue-500/50"
         v-for="(item, id) in studyProjects"
         :key="id"
-      >
-        <CardContent :data="item" />
-      </div>
+      > -->
+      <CardContent v-for="(item, id) in studyProjects" :key="id" :data="item" />
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -57,32 +57,40 @@ const studyProjects = ref<any>(ProjectsStudy);
     align-items: center;
     flex-wrap: wrap;
 
-    &__item {
-      border: 1px solid rgba(0, 0, 0, 0.7137254902);
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #fff;
-      margin: 1.3%;
-      justify-content: space-around;
-      border-top-right-radius: 5rem;
-      border-bottom-left-radius: 5rem;
-      height: 18rem;
-      width: 15rem;
-    }
+    // &__item {
+    //   border: 1px solid rgba(0, 0, 0, 0.7137254902);
+    //   border-radius: 5px;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   background-color: #fff;
+    //   margin: 1.3%;
+    //   justify-content: space-around;
+    //   border-top-right-radius: 5rem;
+    //   border-bottom-left-radius: 5rem;
+    //   height: 18rem;
+    //   width: 15rem;
+    // }
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .projects {
     gap: 0;
     padding: 30% 0;
 
+    p {
+      font-size: 18px;
+    }
+
     &__content {
-      flex-direction: column;
       height: 100%;
       justify-content: space-evenly;
+
+      // &__item {
+      //   height: 14rem;
+      //   width: 10rem;
+      // }
     }
   }
 }

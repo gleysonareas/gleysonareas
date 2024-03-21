@@ -41,7 +41,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .banner {
     &__content {
       max-width: 370px;

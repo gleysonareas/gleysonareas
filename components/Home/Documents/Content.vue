@@ -128,4 +128,35 @@ p {
   color: #000;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .documents {
+    margin-top: 4rem;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .document-card {
+    height: 12rem;
+    width: 8rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    width: 3rem;
+  }
+
+  a {
+    font-size: 11px;
+  }
+}
 </style>

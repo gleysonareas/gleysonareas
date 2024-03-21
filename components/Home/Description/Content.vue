@@ -16,8 +16,9 @@
         Também tenho experiência em <span>desenvolvimento backend</span> com
         <span>.NET Core e Entity Framework</span>, trabalhando com bancos de
         dados relacionais como <span>SQL Server e MySQL</span>, e habilidades em
-        <span>Bootstrap e Tailwind</span>. Já trabalhei com arquitetura <span>DDD e
-          MVC</span> no desenvolvimento de soluções escaláveis e de alta qualidade.
+        <span>Bootstrap e Tailwind</span>. Já trabalhei com arquitetura
+        <span>DDD e MVC</span> no desenvolvimento de soluções escaláveis e de
+        alta qualidade.
       </p>
       <p>
         Estou sempre atualizado com as últimas tendências em tecnologia e
@@ -64,6 +65,21 @@
 
       span {
         color: #fff;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .description {
+    &__header {
+      h1 {
+        font-size: 30px;
+        line-height: 45px;
+      }
+
+      p {
+        span {
+        }
       }
     }
   }
