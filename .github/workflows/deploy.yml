@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, angular-ssr-portfolio]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Para um repositório "<usuario>.github.io", troque o base-href por "/".
+      - run: npx ng build --base-href "/${{ github.event.repository.name }}/"
+      - run: cp dist/gleyson-portfolio/browser/index.html dist/gleyson-portfolio/browser/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/gleyson-portfolio/browser
+
+  # Na branch angular-ssr-portfolio só o build roda (valida o projeto);
+  # a publicação acontece apenas na main.
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,130 @@
+<div class="min-h-screen">
+  <header class="sticky top-0 z-10 border-b bg-background/80 backdrop-blur">
+    <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 font-mono text-sm" aria-label="Navegação principal">
+      <a href="#" class="text-primary">~/gleyson</a>
+      <div class="hidden gap-6 text-muted-foreground sm:flex">
+        <a href="#sobre" class="hover:text-foreground">sobre</a>
+        <a href="#experiencia" class="hover:text-foreground">experiência</a>
+        <a href="#skills" class="hover:text-foreground">skills</a>
+        <a href="#contato" class="hover:text-foreground">contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6">
+    <section class="flex min-h-[85vh] flex-col justify-center py-20">
+      <p class="rise font-mono text-sm text-primary">$ whoami</p>
+      <h1 class="rise mt-6 font-display text-5xl font-bold leading-[0.95] tracking-tight sm:text-7xl md:text-8xl" style="animation-delay: 0.1s">
+        Gleyson Areas<br /><span class="text-muted-foreground">da Silva</span><span class="caret text-primary">_</span>
+      </h1>
+      <p class="rise mt-8 max-w-2xl text-lg text-muted-foreground sm:text-xl" style="animation-delay: 0.2s">
+        Desenvolvedor <span class="text-foreground">Full-Stack</span> com 5+ anos construindo aplicações escaláveis em
+        <span class="text-primary">Angular</span>, <span class="text-primary">Vue</span> e <span class="text-primary">.NET Core</span> — com obsessão por performance, SSR e SEO.
+      </p>
+      <div class="rise mt-10 flex flex-wrap gap-3 font-mono text-sm" style="animation-delay: 0.3s">
+        <a [href]="'mailto:' + email" class="rounded bg-primary px-5 py-3 font-semibold text-primary-foreground transition hover:opacity-90">Entrar em contato →</a>
+        <a [href]="linkedin" target="_blank" rel="noreferrer" class="rounded border px-5 py-3 transition hover:border-primary hover:text-primary">LinkedIn</a>
+      </div>
+      <p class="mt-12 font-mono text-xs text-muted-foreground">📍 Nova Friburgo, RJ · Brasil · disponível para remoto</p>
+    </section>
+
+    <section id="sobre" class="py-20">
+      <h2 class="mb-10 flex items-baseline gap-4 font-mono text-sm uppercase tracking-widest text-muted-foreground">
+        <span class="text-primary">01</span><span>Sobre</span><span class="h-px flex-1 bg-border"></span>
+      </h2>
+      <div class="grid gap-10 md:grid-cols-[2fr_1fr]">
+        <p class="text-xl leading-relaxed">
+          Sou desenvolvedor Full-Stack especializado em front-end Angular, dominando bibliotecas como RxJS, PrimeNG e Angular Material,
+          além de pré-processadores CSS. No back-end, crio APIs com .NET Core e trabalho com bancos relacionais e não relacionais.
+          Meu diferencial: <span class="text-primary">melhoria de performance e SEO</span> com SSR e otimizações avançadas.
+        </p>
+        <dl class="grid grid-cols-2 gap-6 md:grid-cols-1">
+          @for (s of stats; track s.label) {
+            <div class="border-l-2 border-primary pl-4">
+              <dt class="font-display text-4xl font-bold">{{ s.value }}</dt>
+              <dd class="font-mono text-xs uppercase text-muted-foreground">{{ s.label }}</dd>
+            </div>
+          }
+        </dl>
+      </div>
+    </section>
+
+    <section id="experiencia" class="py-20">
+      <h2 class="mb-10 flex items-baseline gap-4 font-mono text-sm uppercase tracking-widest text-muted-foreground">
+        <span class="text-primary">02</span><span>Experiência</span><span class="h-px flex-1 bg-border"></span>
+      </h2>
+      <ol>
+        @for (e of experience; track $index) {
+          <li class="group grid gap-2 border-t py-8 md:grid-cols-[200px_1fr]">
+            <div class="font-mono text-xs text-muted-foreground">
+              <p class="text-foreground">{{ e.period }}</p>
+              <p class="mt-1">{{ e.place }}</p>
+            </div>
+            <div>
+              <h3 class="font-display text-2xl font-bold transition group-hover:text-primary">{{ e.company }}</h3>
+              <p class="font-mono text-sm text-accent">{{ e.role }} · PJ</p>
+              <p class="mt-3 max-w-2xl text-muted-foreground">{{ e.text }}</p>
+            </div>
+          </li>
+        }
+      </ol>
+    </section>
+
+    <section id="skills" class="py-20">
+      <h2 class="mb-10 flex items-baseline gap-4 font-mono text-sm uppercase tracking-widest text-muted-foreground">
+        <span class="text-primary">03</span><span>Skills</span><span class="h-px flex-1 bg-border"></span>
+      </h2>
+      <div class="grid gap-px overflow-hidden rounded border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        @for (s of skills; track s.group) {
+          <div class="bg-card p-6">
+            <h3 class="font-mono text-xs uppercase tracking-widest text-primary">{{ s.group }}</h3>
+            <ul class="mt-4 flex flex-wrap gap-2">
+              @for (it of s.items; track it) {
+                <li class="rounded border px-3 py-1 text-sm">{{ it }}</li>
+              }
+            </ul>
+          </div>
+        }
+      </div>
+    </section>
+
+    <section class="py-20">
+      <h2 class="mb-10 flex items-baseline gap-4 font-mono text-sm uppercase tracking-widest text-muted-foreground">
+        <span class="text-primary">04</span><span>Formação &amp; Certificações</span><span class="h-px flex-1 bg-border"></span>
+      </h2>
+      <div class="grid gap-12 md:grid-cols-2">
+        <ul class="space-y-6">
+          <li>
+            <p class="font-display text-xl font-bold">Pós-Graduação em Segurança da Informação</p>
+            <p class="font-mono text-sm text-muted-foreground">FAVENI · desde Jan/2025</p>
+          </li>
+          <li>
+            <p class="font-display text-xl font-bold">Tecnologia da Informação — Análise de Sistemas</p>
+            <p class="font-mono text-sm text-muted-foreground">Estácio · concluído Abr/2025</p>
+          </li>
+        </ul>
+        <ul class="grid grid-cols-1 gap-2 font-mono text-sm sm:grid-cols-2">
+          @for (c of certs; track c) {
+            <li class="text-muted-foreground"><span class="text-primary">▸</span> {{ c }}</li>
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" class="py-28">
+      <h2 class="mb-10 flex items-baseline gap-4 font-mono text-sm uppercase tracking-widest text-muted-foreground">
+        <span class="text-primary">05</span><span>Contato</span><span class="h-px flex-1 bg-border"></span>
+      </h2>
+      <p class="font-display text-4xl font-bold tracking-tight sm:text-6xl">Vamos construir algo<br /><span class="text-primary">rápido e bem ranqueado?</span></p>
+      <div class="mt-10 grid gap-4 font-mono text-sm sm:grid-cols-3">
+        <a [href]="'mailto:' + email" class="break-all rounded border p-5 transition hover:border-primary hover:text-primary">✉ {{ email }}</a>
+        <a [href]="whatsapp" target="_blank" rel="noreferrer" class="rounded border p-5 transition hover:border-primary hover:text-primary">☎ (22) 99905-2397</a>
+        <a [href]="linkedin" target="_blank" rel="noreferrer" class="rounded border p-5 transition hover:border-primary hover:text-primary">in/gleyson-areas-da-silva</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t py-8 text-center font-mono text-xs text-muted-foreground">
+    © {{ year }} Gleyson Areas da Silva
+  </footer>
+</div>

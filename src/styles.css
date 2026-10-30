@@ -1,0 +1,89 @@
+@import "@fontsource/space-grotesk/400.css";
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/600.css";
+@import "tailwindcss" source(none);
+@source "./app";
+@source "./index.html";
+
+@theme inline {
+  --font-display: "Space Grotesk", ui-sans-serif, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-sans: "Space Grotesk", ui-sans-serif, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+}
+
+:root {
+  --radius: 0.25rem;
+  --background: oklch(0.16 0.01 150);
+  --foreground: oklch(0.94 0.01 120);
+  --card: oklch(0.2 0.012 150);
+  --card-foreground: oklch(0.94 0.01 120);
+  --primary: oklch(0.88 0.2 128);
+  --primary-foreground: oklch(0.16 0.01 150);
+  --muted: oklch(0.24 0.012 150);
+  --muted-foreground: oklch(0.65 0.02 140);
+  --accent: oklch(0.72 0.15 45);
+  --accent-foreground: oklch(0.16 0.01 150);
+  --border: oklch(0.3 0.015 150);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    background-image: radial-gradient(
+      color-mix(in oklab, var(--foreground) 6%, transparent) 1px,
+      transparent 1px
+    );
+    background-size: 24px 24px;
+  }
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@utility caret {
+  animation: blink 1s steps(1) infinite;
+}
+@utility rise {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
