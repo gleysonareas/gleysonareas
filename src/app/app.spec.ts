@@ -18,7 +18,9 @@ describe('App', () => {
     await fixture.whenStable();
     const el = fixture.nativeElement as HTMLElement;
     expect(el.querySelector('h1')?.textContent).toContain('Gleyson Areas');
-    expect(el.querySelectorAll('#sobre, #experiencia, #skills, #contato').length).toBe(4);
+    expect(el.querySelectorAll('#sobre, #experiencia, #projetos, #skills, #contato').length).toBe(5);
     expect(el.querySelectorAll('#experiencia li').length).toBe(8);
+    expect(el.querySelectorAll('ul[aria-label="Projetos profissionais"] > li').length).toBe(5);
+    expect(el.querySelectorAll('ul[aria-label="Projetos de estudo"] > li').length).toBe(9);
   });
 });
