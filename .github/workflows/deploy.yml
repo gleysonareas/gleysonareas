@@ -31,11 +31,8 @@ jobs:
         with:
           path: dist/gleyson-portfolio/browser
 
-  # Na branch angular-ssr-portfolio só o build roda (valida o projeto);
-  # a publicação acontece apenas na main.
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

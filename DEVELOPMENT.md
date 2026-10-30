@@ -25,7 +25,7 @@ Os dados (experiências, skills, certificações, contatos) ficam em `src/app/da
 
 ## Publicação no GitHub Pages
 
-O workflow `.github/workflows/deploy.yml` faz o build e publica a pasta `dist/gleyson-portfolio/browser` (HTML já pré-renderizado) a cada push na `main`. Na branch `angular-ssr-portfolio` o workflow só faz o build (validação), sem publicar. Em **Settings → Pages**, selecione **GitHub Actions** como fonte. O site fica em `https://gleysonareas.github.io/gleysonareas/`.
+O workflow `.github/workflows/deploy.yml` faz o build e publica a pasta `dist/gleyson-portfolio/browser` (HTML já pré-renderizado) a cada push na `main` ou na branch `angular-ssr-portfolio`. Em **Settings → Pages**, selecione **GitHub Actions** como fonte e, em **Settings → Environments → github-pages → Deployment branches**, permita também a branch `angular-ssr-portfolio` (por padrão só a `main` pode publicar). O site fica em `https://gleysonareas.github.io/gleysonareas/`.
 
 > **SSR em produção:** por segurança o Angular só atende hosts listados em `security.allowedHosts` no `angular.json` (hoje: `localhost`). Ao hospedar `server.mjs` num domínio próprio, adicione-o lá (ex.: `"meusite.com"`).
 
