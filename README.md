@@ -4,7 +4,7 @@
 
 ### Desenvolvedor Full-Stack · Angular · Vue · .NET
 
-5+ anos construindo aplicações escaláveis, com foco em **performance, SSR e SEO**.
+7+ anos de Angular construindo aplicações escaláveis, com foco em **performance, SSR e SEO**.
 📍 Nova Friburgo, RJ · Brasil · disponível para trabalho remoto
 
 <a href="https://gleysonareas.github.io/gleysonareas/"><img src="https://img.shields.io/badge/Portfólio-gleysonareas.github.io-B6F23B?style=for-the-badge&logo=githubpages&logoColor=black" alt="Portfólio online"></a>
@@ -17,7 +17,14 @@
 
 ## 👨‍💻 Sobre
 
-Desenvolvedor Full-Stack especializado em **front-end com Angular**, com domínio de RxJS, PrimeNG e Angular Material. No back-end, crio APIs com **.NET Core** e trabalho com bancos relacionais e não relacionais. Meu diferencial é a **melhoria de performance e SEO** com SSR e otimizações avançadas. Em 8 experiências 100% remotas, atuei com Angular de 2 a 19, Vue 3 e Nuxt.
+Desenvolvedor Full-Stack formado em Análise de Sistemas, especializado em **front-end com mais de 7 anos de Angular**, com domínio de RxJS, PrimeNG, Angular Material e pré-processadores CSS. No back-end, crio APIs REST com **.NET Core e C#** e trabalho com SQL Server, MySQL e Firebase. Meu diferencial é a **melhoria de performance e SEO** com SSR e otimizações avançadas. Hoje atuo na GFT em projetos para a B3, usando IA para ganhar produtividade.
+
+**Destaques**
+- ✔ Especialista em aplicações responsivas com Angular
+- ✔ Experiência em upgrades de versão do Angular, inclusive em projetos micro-frontend
+- ✔ Conhecimento em Vue.js e AngularJS
+- ✔ Performance e SEO On-Page com SSR e técnicas avançadas de otimização
+- ✔ CSS puro e SASS sólidos
 
 > 🌐 **Veja meu portfólio online, feito em Angular com SSR:** [gleysonareas.github.io/gleysonareas](https://gleysonareas.github.io/gleysonareas/)
 
@@ -39,8 +46,9 @@ Desenvolvedor Full-Stack especializado em **front-end com Angular**, com domíni
 
 | Período | Empresa | Atuação |
 | --- | --- | --- |
+| 2025 – atual | **GFT Technologies** (cliente B3) | Front-end: aplicações web em Angular para grandes clientes, do requisito à entrega, com uso de IA no fluxo de trabalho |
 | 2023 – 2025 | **LiberFly** | Front-end: ciclo completo de sites orientados a SEO, com foco em performance e ranqueamento |
-| 2021 – 2023 | **Easy Communication & Technology** | Front-end e full-stack: Angular 10 a 13, APIs em .NET Core, melhoria de UX e upgrades de versão |
+| 2021 – 2023 | **Easy Communication & Technology** | Front-end e full-stack: Angular 10 a 14, upgrade do Angular 11 para 14, APIs em .NET Core e mentoria de novos integrantes |
 | 2022 | **GoMeyra** (EUA) | Front-end: gestão laboratorial em Angular 13, implementação de SSR e SEO On-Page |
 | 2022 | **LABDX** (EUA) | Full-stack: gestão laboratorial com AngularJS e .NET; instrutor de onboarding |
 | 2020 – 2022 | **Lextar Tecnologia** | Front-end: gestão contábil com Angular 9 e 11 e Firebase (começando no estágio) |
@@ -78,7 +86,9 @@ Desenvolvedor Full-Stack especializado em **front-end com Angular**, com domíni
 ## 🎓 Formação e certificados
 
 - **Pós-graduação em Segurança da Informação**, FAVENI (desde jan/2025)
-- **Tecnologia da Informação, Análise de Sistemas**, Estácio (concluído em abr/2025)
+- **Tecnologia da Informação, Análise de Sistemas**, Estácio (abr/2022 a mar/2025)
+
+**Idiomas:** Português (nativo) · Inglês (elementar) · Espanhol (profissional limitado)
 
 <details>
 <summary><b>Certificados de cursos</b></summary>

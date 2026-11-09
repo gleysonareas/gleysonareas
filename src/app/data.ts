@@ -8,25 +8,27 @@ export interface Experience {
   period: string;
   place: string;
   text: string;
+  contract?: string;
 }
 
 export const EXPERIENCE: Experience[] = [
-  { company: 'LiberFly', role: 'Desenvolvedor Front-end', period: 'Fev/2023 – Mai/2025', place: 'Vitória, ES · Remoto', text: 'Gestão de todo o ciclo de desenvolvimento e manutenção de soluções web orientadas a SEO, garantindo performance e melhor avaliação nos motores de busca.' },
-  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Front-end', period: 'Set/2022 – Jan/2023', place: 'Joinville, SC · Remoto', text: 'Novas funcionalidades, melhoria de UX e upgrade de versão de um dos principais projetos da empresa, trazendo ganhos de desempenho e segurança.' },
-  { company: 'GoMeyra', role: 'Desenvolvedor Front-end', period: 'Mar/2022 – Dez/2022', place: 'EUA · Remoto', text: 'Soluções de gestão laboratorial com Angular 13, implementação de SSR, otimização de performance e SEO On-Page.' },
-  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Full-stack', period: 'Jan/2022 – Ago/2022', place: 'Joinville, SC · Remoto', text: 'Evolução de aplicações Angular (v10 a v13) e criação/manutenção de APIs com .NET Core para integração entre sistemas.' },
-  { company: 'LABDX', role: 'Desenvolvedor Full-stack', period: 'Jan/2022 – Mai/2022', place: 'EUA · Remoto', text: 'Gestão laboratorial com AngularJS e .NET. Também atuei como instrutor no onboarding de novos colaboradores.' },
-  { company: 'Lextar Tecnologia', role: 'Desenvolvedor Front-end', period: 'Jan/2022 – Abr/2022', place: 'Goiânia, GO · Remoto', text: 'Soluções de gestão contábil com Angular 11 e Firebase.' },
-  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Front-end', period: 'Mar/2021 – Dez/2021', place: 'Joinville, SC · Remoto', text: 'Manutenção e prevenção de bugs e vulnerabilidades; instrutor de novos colaboradores e configuração de ambientes.' },
-  { company: 'Lextar Tecnologia', role: 'Desenvolvedor Front-end (estágio)', period: 'Mar/2020 – Set/2020', place: 'Goiânia, GO · Remoto', text: 'Primeira experiência profissional desenvolvendo software web com Angular 9 e Firebase.' },
+  { company: 'GFT Technologies · cliente B3', role: 'Engenheiro de Software Front-end', period: 'Ago/2025 – Atual', place: 'Barueri / São Paulo, SP', text: 'Projeto, desenvolvimento e manutenção de aplicações web em Angular para grandes clientes, como a B3, do levantamento de requisitos à entrega e melhoria contínua, com foco em performance, qualidade e experiência do usuário. Uso ferramentas de IA para otimizar o fluxo de trabalho e a produtividade.' },
+  { company: 'LiberFly', role: 'Desenvolvedor Front-end', period: 'Fev/2023 – Mai/2025', place: 'Vitória, ES · Remoto', text: 'Gestão de todo o ciclo de desenvolvimento e manutenção de soluções web orientadas a SEO, garantindo performance e melhor avaliação nos motores de busca, como o Google.', contract: 'PJ' },
+  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Front-end', period: 'Set/2022 – Jan/2023', place: 'Joinville, SC · Remoto', text: 'Novas funcionalidades e melhoria de UX em Angular. Responsável por atualizar o Angular da v11 para a v14 em todo um projeto dividido em módulos, trazendo ganhos de desempenho e segurança.', contract: 'PJ' },
+  { company: 'GoMeyra', role: 'Desenvolvedor Front-end', period: 'Mar/2022 – Dez/2022', place: 'EUA · Remoto', text: 'Soluções de gestão laboratorial com Angular 13, implementação de SSR, otimização de performance e SEO On-Page para melhorar o ranqueamento nos buscadores.', contract: 'PJ' },
+  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Full-stack', period: 'Jan/2022 – Ago/2022', place: 'Joinville, SC · Remoto', text: 'Novas funcionalidades e melhoria de UX; evolução de aplicações Angular (v10 a v13) e criação/manutenção de APIs com .NET Core para integração entre sistemas.', contract: 'PJ' },
+  { company: 'LABDX', role: 'Desenvolvedor Full-stack', period: 'Jan/2022 – Mai/2022', place: 'EUA · Remoto', text: 'Gestão laboratorial com AngularJS e .NET. Também atuei como mentor de novos colaboradores, no onboarding e na configuração do ambiente local.', contract: 'PJ' },
+  { company: 'Lextar Tecnologia', role: 'Desenvolvedor Front-end', period: 'Jan/2022 – Abr/2022', place: 'Goiânia, GO · Remoto', text: 'Soluções de gestão contábil com Angular 11 e Firebase, colaborando com designers e engenheiros para melhorar interfaces e otimizar o código com segurança e eficiência.', contract: 'PJ' },
+  { company: 'Easy Communication & Technology', role: 'Desenvolvedor Front-end', period: 'Mar/2021 – Dez/2021', place: 'Joinville, SC · Remoto', text: 'Manutenção e prevenção de bugs e vulnerabilidades em Angular; mentor de novos integrantes, com onboarding e configuração de ambientes locais.', contract: 'PJ' },
+  { company: 'Lextar Tecnologia', role: 'Desenvolvedor Front-end (estágio)', period: 'Mar/2020 – Set/2020', place: 'Goiânia, GO · Remoto', text: 'Primeira experiência profissional desenvolvendo software web com Angular 9 e Firebase.', contract: 'PJ' },
 ];
 
 export const SKILLS: { group: string; items: string[] }[] = [
-  { group: 'Front-end', items: ['Angular 2–19', 'Vue 3', 'Nuxt.js', 'TypeScript', 'RxJS', 'SSR'] },
-  { group: 'Back-end', items: ['.NET Core', 'Node.js', 'NestJS'] },
+  { group: 'Front-end', items: ['Angular 2–19', 'Micro-frontends', 'Vue 3', 'Nuxt.js', 'AngularJS', 'TypeScript', 'JavaScript', 'RxJS', 'SSR'] },
+  { group: 'Back-end', items: ['.NET Core', 'C#', 'APIs REST', 'Node.js', 'NestJS'] },
   { group: 'Banco de dados', items: ['SQL Server', 'MySQL', 'Firebase'] },
-  { group: 'UI & Performance', items: ['SCSS', 'Tailwind', 'Bootstrap', 'Angular Material', 'PrimeNG', 'SEO'] },
-  { group: 'Ferramentas', items: ['Git', 'Azure DevOps'] },
+  { group: 'UI & Performance', items: ['CSS', 'SASS/SCSS', 'Tailwind', 'Bootstrap', 'Angular Material', 'PrimeNG', 'SEO'] },
+  { group: 'Ferramentas', items: ['Git', 'Azure DevOps', 'IA aplicada ao desenvolvimento'] },
 ];
 
 export const CERTS = [
@@ -71,7 +73,21 @@ export const STUDY_PROJECTS: Project[] = [
 ];
 
 export const STATS: { value: string; label: string }[] = [
-  { value: '5+', label: 'anos de experiência' },
-  { value: '8', label: 'experiências remotas' },
+  { value: '7+', label: 'anos com Angular' },
+  { value: '6', label: 'empresas' },
   { value: '2–19', label: 'versões de Angular' },
+];
+
+export const HIGHLIGHTS = [
+  'Especialista em aplicações responsivas com Angular',
+  'Experiência em upgrades de versão do Angular, inclusive em projetos micro-frontend',
+  'Conhecimento em Vue.js e AngularJS',
+  'Performance e SEO On-Page com SSR e técnicas avançadas de otimização',
+  'CSS puro e SASS sólidos',
+];
+
+export const LANGUAGES: { name: string; level: string }[] = [
+  { name: 'Português', level: 'Nativo' },
+  { name: 'Inglês', level: 'Elementar' },
+  { name: 'Espanhol', level: 'Profissional limitado' },
 ];

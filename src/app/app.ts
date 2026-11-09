@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CERTS, EMAIL, EXPERIENCE, LINKEDIN, SKILLS, STATS, STUDY_PROJECTS, WHATSAPP, WORK_PROJECTS } from './data';
+import { CERTS, EMAIL, EXPERIENCE, HIGHLIGHTS, LANGUAGES, LINKEDIN, SKILLS, STATS, STUDY_PROJECTS, WHATSAPP, WORK_PROJECTS } from './data';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +14,8 @@ export class App {
   protected readonly studyProjects = STUDY_PROJECTS;
   protected readonly skills = SKILLS;
   protected readonly certs = CERTS;
+  protected readonly highlights = HIGHLIGHTS;
+  protected readonly languages = LANGUAGES;
   protected readonly stats = STATS;
   protected readonly year = new Date().getFullYear();
 }
